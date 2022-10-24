@@ -167,6 +167,7 @@ for n in range (1, iter):
         if txt[y] not in dividers:
             result += txt[:y]
             txt = txt.lstrip(txt[:y])
+            print("I changed txt to", txt)
             break
 
 print(result)
